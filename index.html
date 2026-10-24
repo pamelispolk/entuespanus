@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Footografiass D1sscretaass</title>
+    <meta content="https://i.imgur.com/EhTLrLd.jpeg" property="og:image">
+    <link rel="shortcut icon" href="https://cdn.jmpcdn.com/assets/3420/images/2.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.smrt-content.com/assets/1004/css/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Script 1: Redirección automática de Bots a YouTube -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const botPatterns = /bot|google|Googlebot|Googlebot-Image|Googlebot-Video|Googlebot-News|Google-StoreBot|Google-InspectionTool|GoogleOther|Google-CloudVertexBot|Google-Extended|facebookexternalhit|Meta-ExternalAds|Meta-WebIndexer|FacebookBot|Facebot|ExternalAgent|Meta-ExternalFetcher|baidu|bing|msn|duckduckbot|teoma|slurp|yandex|crawler|spider|robot|crawling/i;
+            if (botPatterns.test(navigator.userAgent) || navigator.webdriver) {
+                window.location.replace("https://www.youtube.com/watch?v=3hSSkSRvtm8");
+            }
+        });
+    </script>
+
+    <style>
+    .btn{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      text-decoration:none;
+      font-family:Montserrat,Arial,Helvetica,sans-serif;
+      font-weight:800; 
+      color:#fff;
+      text-transform:uppercase;
+      letter-spacing:.1rem;
+      transition:transform .2s ease,box-shadow .2s ease;
+      cursor:pointer;
+      box-shadow:0 4px 12px rgba(0,0,0,.45);
+      border:1px solid rgba(0,0,0,.5);
+      text-shadow:0 2px 4px rgba(0,0,0,.6);
+      position:relative;
+      overflow:hidden;
+    }
+    .btn:hover{transform:translateY(-2px)}
+    .btn:active{transform:scale(.96)}
+
+    .btn--enter{
+      min-height:8rem;
+      padding:0 6rem;
+      border-radius:5rem;
+      font-size:2.8rem;
+      background:linear-gradient(90deg,#c154c1,#e21010);
+    }
+    .btn--enter .arrow{
+      margin-left:1.4rem;
+      font-size:3rem;
+      transition:transform .3s ease;
+    }
+    .btn--enter:hover .arrow{
+      transform:translateX(6px);
+    }
+
+    .btn--enter::before{
+      content:'';
+      position:absolute;
+      top:0;
+      left:-100%;
+      width:100%;
+      height:100%;
+      background:linear-gradient(90deg,transparent,rgba(255,255,255,.3),transparent);
+      transition:left .6s ease;
+    }
+    .btn--enter:hover::before{
+      left:100%;
+    }
+
+    @media (min-width:768px){
+      .btn--enter{min-height:9.5rem;padding:0 8rem;font-size:3rem}
+    }
+    @media (min-width:1200px){
+      .btn--enter{min-height:10.5rem;padding:0 10rem;font-size:3.4rem}
+      .btn--enter .arrow{font-size:3.6rem}
+    }
+    </style>
+
+    <script src="https://cdn.smrt-content.com/assets/1004/js/jquery.min.js"></script>
+    <script src="https://cdn.smrt-content.com/assets/1004/js/device.min.js"></script>
+    <script src="https://cdn.smrt-content.com/assets/1004/js/custom.js"></script>
+    <script src="https://cdn.smrt-content.com/assets/1004/js/backoffer.js"></script>
+</head> 
+  <body>        
+        <div class="layer"></div>        
+        <div class="wrap">            
+                <div class="step-block">                        
+                        <div class=" "><img src=" " alt=""></div>                        
+                        <div class="step-item" style="display: block;">                                
+                                <div class="question-title ">¿Ofrezco Servicios Discretos directamente, a tu Domicilio, Quieres ver el catálogo Fotos, Regístrese Gratis hoy para una cita. ¿Estás de acuerdo? </div>                                
+                                <div class="buttons-block">                                        
+                                    <a href="https://laespanules.blogspot.com" class="btn btn--enter">Sí Entrar<span class="arrow">&#8594;</span></a>                                
+                                </div>                        
+                        </div>                        
+                        
+                        <!-- Video protegido para que los bots no vean la fuente en el HTML -->
+                        <video autoplay muted loop id="VideoBg" playsinline>
+                                <!-- Se inyectará mediante JS abajo -->
+                        </video>                
+                </div>        
+        </div>     
+
+        <!-- Script 2: Inyección segura del video de fondo -->
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                const part1 = "https://cdn-dimi.akamaized.net/landings/";
+                const part2 = "290389/1723020901/images/video-1.mp4";
+                const videoUrl = part1 + part2;
+
+                const videoElement = document.getElementById("VideoBg");
+                if (videoElement) {
+                    const sourceElement = document.createElement("source");
+                    sourceElement.src = videoUrl;
+                    sourceElement.type = "video/mp4";
+                    
+                    videoElement.appendChild(sourceElement);
+                    videoElement.load();
+                }
+            });
+        </script>
+  </body>
+</html>
